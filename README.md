@@ -13,3 +13,10 @@ displays equipment, aspects, skills, gems, and paragon board data.
 - ✅ **Responsive design**: Scrollable tabs for each data category
 
 ## Project Structure
+diablo4-overlay/
+├── scraper_maxroll.py    # Main scraper script
+├── main.py               # Tkinter overlay application
+├── requirements.txt      # Python dependencies
+├── builds.json           # Generated build data (output)
+├── builds.json.example   # Example output format
+└── README.md             # This file
