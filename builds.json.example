@@ -1,0 +1,51 @@
+{
+  "url": "https://maxroll.gg/d4/build-guides/dance-of-knives-rogue-guide",
+  "build_name": "dance-of-knives-rogue",
+  "versions": {
+    "Starter": {
+      "name": "Starter",
+      "equipment": {
+        "Helm": {
+          "name": "Legendary Helm",
+          "id": "helm_legendary_001",
+          "aspect": "Mending Obscurity",
+          "affixes": ["+X Life", "+Y Armor"]
+        },
+        "Chest Armor": {
+          "name": "Legendary Chest Armor",
+          "id": "chest_legendary_001",
+          "aspect": "Disobedience",
+          "affixes": ["+X Strength", "+Y Cooldown Reduction"]
+        }
+      },
+      "aspects": {
+        "Helm": "Mending Obscurity",
+        "Chest Armor": "Disobedience"
+      },
+      "skills": {
+        "Basic": {
+          "name": "Flurry",
+          "id": "rogue_flurry",
+          "rank": 5,
+          "glyph": "Exploit"
+        }
+      },
+      "gems": {
+        "Weapon Gem 1": {
+          "name": "Emerald",
+          "type": "Weapon",
+          "rank": 5
+        }
+      },
+      "paragon": [{
+        "name": "Cutthroat",
+        "glyphs": [{"name": "Exploit", "id": "paragon_exploit", "level": 15}],
+        "nodes": [],
+        "stats": {"Dexterity": {"value": 150, "name": "Dexterity"}}
+      }]
+    },
+    "Midgame": { ... },
+    "Endgame": { ... },
+    "Endgame Mythic Seal": { ... }
+  }
+}
